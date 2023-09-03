@@ -1,4 +1,10 @@
-function soma(a: number, b: number){
-    return a + b;
+interface IUsuario {
+    id: string;
+    email: string;
 }
 
+interface IAdmin {
+    cargo: 'super' | 'normal';
+}
+
+/* function redirecione(usuario: IUsuario | IAdmin) */
